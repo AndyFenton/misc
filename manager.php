@@ -10,6 +10,7 @@ function reload(){
     echo "<pre>$output</pre>";
 }
 
+
 if (isset($_REQUEST['adduser']) && !empty($_REQUEST['user']) && !empty($_REQUEST['password'])) {
 
     $user = $_REQUEST['user'];
